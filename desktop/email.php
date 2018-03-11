@@ -10,6 +10,6 @@ $headers = 'From: webmaster@example.com' . "\r\n" .
 mail($to, $subject, $message, $headers);
 
 
-$newURL = "https://www.surveymonkey.com/r/Y7L9ZY6";
+$newURL = "REDIRECT SOMEWHERE ";
 header('Location: '.$newURL);
 ?>
